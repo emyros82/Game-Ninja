@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+.forest {
+  background: url("../images/9d0388774b42e20eae3f28961245719f.gif ") no-repeat center center;
+  background-size: cover;
+}
+
+.player1-body {
+  background: url("../images/player1-body.png") no-repeat;
+  background-size: cover;
+}
+
+.player2-body {
+  background: url("../images/player2-body.png") no-repeat;
+  background-size: cover;
+}
+
+.player1-head {
+  background: url("../images/player1-head.png") no-repeat;
+  background-size: cover;
+}
+
+.player2-head {
+  background: url("../images/player2-head.png") no-repeat;
+  background-size: cover;
+}
+
+.shuriken {
+  background: url("../images/shuriken.png") no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */
