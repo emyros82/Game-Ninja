@@ -1,4 +1,6 @@
 import '../lib/domToolBox.js'
+
+//class element 
 export class Element
 {   
     getConteneur(){

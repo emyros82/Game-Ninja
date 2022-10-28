@@ -82,11 +82,7 @@ export class App
                     },
                     [],
                     {
-                        click:function(){alert('test')}
-                    },
-                    [],
-                    {
-                        click:function(){alert('test')}
+                        click:function(){this.classList.add('actionShurikenJouer1')}
                     }
                 ))
                 
@@ -141,7 +137,7 @@ export class App
                 },
                 [],
                     {
-                        click:function(){alert('test')}
+                        click:function(){this.classList.add('actionShurikenJouer2'); console.log ('coucou')}
                     }
             ))
         );

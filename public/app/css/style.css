@@ -22,6 +22,12 @@ body {
   background-size: cover;
 }
 
+.actionShurikenJouer1 {
+  animation-name: actionShurikenJouer1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
 .player2-head {
   background: url("../images/player2-head.png") no-repeat;
   background-size: cover;
@@ -30,5 +36,37 @@ body {
 .shuriken {
   background: url("../images/shuriken.png") no-repeat;
   background-size: cover;
+
 }
+
+.actionShurikenJouer2 {
+  animation-name: actionShurikenJouer2;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
 /*# sourceMappingURL=style.css.map */
+@keyframes actionShurikenJouer1 {
+  0% {
+    /* left: 0px; */
+    /* top: 0px; */
+  }
+
+  100% {
+    left: -1500px;
+    /* top: 0px; */
+  }
+}
+
+
+@keyframes actionShurikenJouer2 {
+  0% {
+    /* left: 0px; */
+    /* top: 0px; */
+  }
+
+  100% {
+    left: 1500px;
+    /* top: 0px; */
+  }
+}
