@@ -3,32 +3,70 @@ body {
 }
 
 .forest {
-
-    background: url('../images/9d0388774b42e20eae3f28961245719f.gif ') no-repeat center center;
+    background: url("../images/giphy.gif") no-repeat center center;
     background-size: cover;
 }
 
 .player1-body {
-    background: url('../images/player1-body.png') no-repeat;
+    background: url("../images/player1-body.png") no-repeat;
     background-size: cover;
 }
 
 .player2-body {
-    background: url('../images/player2-body.png') no-repeat;
+    background: url("../images/player2-body.png") no-repeat;
     background-size: cover;
 }
 
 .player1-head {
-    background: url('../images/player1-head.png') no-repeat;
+    background: url("../images/player1-head.png") no-repeat;
     background-size: cover;
 }
 
+.actionShurikenJouer1 {
+    animation-name: actionShurikenJouer1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
 .player2-head {
-    background: url('../images/player2-head.png') no-repeat;
+    background: url("../images/player2-head.png") no-repeat;
     background-size: cover;
 }
 
 .shuriken {
-    background: url('../images/shuriken.png') no-repeat;
+    background: url("../images/shuriken.png") no-repeat;
     background-size: cover;
+
+}
+
+.actionShurikenJouer2 {
+    animation-name: actionShurikenJouer2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+/*# sourceMappingURL=style.css.map */
+@keyframes actionShurikenJouer1 {
+    0% {
+        /* left: 0px; */
+        /* top: 0px; */
+    }
+
+    100% {
+        left: -1500px;
+        /* top: 0px; */
+    }
+}
+
+
+@keyframes actionShurikenJouer2 {
+    0% {
+        /* left: 0px; */
+        /* top: 0px; */
+    }
+
+    100% {
+        left: 1500px;
+        /* top: 0px; */
+    }
 }

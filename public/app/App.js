@@ -82,7 +82,7 @@ export class App
                     },
                     [],
                     {
-                        click:function(){this.classList.add('actionShurikenJouer1')}
+                        click:function(){this.classList.toggle('actionShurikenJouer1')}
                     }
                 ))
                 
@@ -137,7 +137,7 @@ export class App
                 },
                 [],
                     {
-                        click:function(){this.classList.add('actionShurikenJouer2'); console.log ('coucou')}
+                        click:function(){this.classList.toggle('actionShurikenJouer2'); console.log ('coucou')}
                     }
             ))
         );

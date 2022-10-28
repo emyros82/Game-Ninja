@@ -1,2 +1,2 @@
 # Ninja
-Exo de ninja
+Game ninja, js (OOP) css
